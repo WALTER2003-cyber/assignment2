@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .first {
+        display: flex;
+        gap:1000px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .container {
+        border:1pt solid black;
+    }
+</style>
+<body>
+    <div class="container">
+    <header>
+        <div class="first"><b><a href="portfolio.html" target="_blank">My portfolio</a></b>
+        <b> <a href="superscript.html" target="_self">Superscript</a></b></div>
+    </header>
+    <p>a<sup>2</sup> + b<sup>2</sup> = c <sup>2</sup></p>
+    <p>log <sub>b</sub> a = log <sub>c</sub> a / log <sub>c</sub>b</p>
+    <p>This text contains <sup>sensitive</sup> information which may be <sub>deciphered</sub> by <i style="color: rgb(119, 3, 3);">NASA</i></p>
+    <ol type="i">
+        <li>My First List
+            <ol type="1">
+                <li>Fruits
+                    <ol type="i">
+                        <li>Berries:
+                            <ul type="circle">
+                                <li>Apples</li>
+                                <li>Tomatoes</li>
+                            </ul>
+                        </li>
+                        <li>Drupes
+                            <ul type="square">
+                                <li>Mango</li>
+                                <li>Avocado</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>Vegetables
+                    <ol type="a">
+                        <li>Leafy
+                            <ul type="disc">
+                                <li>Kale</li>
+                                <li>Spinach</li>
+                            </ul>
+                        </li>
+                        <li>Non-Leafy
+                            <ul type="disc">
+                                <li>Cabbage</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>Meat
+                    <ul>
+                        <li>White meats
+                            <ol type="A">
+                                <li>Chicken</li>
+                                <li>Tuna</li>
+                            </ol>
+                        </li>
+                        <li>Red Meats
+                            <ol type="I">
+                                <li>Beef</li>
+                                <li>Mutton</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>My Second List
+            <ol type="A">
+                <li>Fruits
+                    <ol type="1">
+                        <li>Berries:
+                            <ol type="a">
+                                <li>Apples</li>
+                                <li>Tomatoes</li>
+                            </ol>
+                        </li>
+                        <li>Drupes
+                            <ol type="i">
+                                <li>Mango</li>
+                                <li>Avocado</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+                <li>Vegetables
+                    <ul type="disc">
+                        <li>Leafy
+                            <ol type="i">
+                                <li>Kale</li>
+                                <li>Spinach</li>
+                            </ol>
+                        </li>
+                        <li>Non-Leafy
+                            <ol type="a">
+                                <li>Cabbage</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+                <li>Meat
+                    <ul type="square">
+                        <li>White meats</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>My First Table
+            <table border="1pt" style="border-collapse:collapse;">
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>SCS104</td>
+                <td></td>
+                <td>SCS105</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td>SCS102</td>
+                <td>SCS102</td>
+            </tr>
+            </table>
+        </li>
+        <li>My Second Table
+            <table border="1pt" style=" border-collapse: collapse;">
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">SCS101</td>
+                    <td>SCS104</td>
+                    <td>SCS105</td>
+                    <td rowspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>SCS104</td>
+                    <td>SCS105</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>SCS101</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td>SCS101</td>
+                    <td></td>
+                    <td></td>
+                    <td>SCS102</td>
+                    <td>SCS102</td>
+                </tr>
+            </table>
+        </li>
+        <li>My Third Table
+            <table border="1pt" style="border-collapse: collapse;">
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">SCS101</td>
+                    <td>SCS104</td>
+                    <td>SCS105</td>
+                    <td rowspan="2">
+                        <ol type="i">
+                            <li>Eat</li>
+                            <li>Sleep</li>
+                        </ol>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>SCS104</td>
+                    <td>SCS105</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>SCS101</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td>SCS101</td>
+                    <td></td>
+                    <td></td>
+                    <td>SCS102</td>
+                    <td>SCS102</td>
+                </tr>
+            </table>
+        </li>
+        <li>My Forth Table
+            <table border="1pt" style="border-collapse: collapse;">
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th></th>
+                <th>Wednesday</th>
+                <th></th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td>SCS104</td>
+                <td rowspan="2" style="writing-mode: vertical-rl; text-orientation: upright;">BREAK</td>
+                <td>SCS105</td>
+                <td rowspan="2" style="writing-mode: vertical-rl; text-orientation: upright;">LUNCH</td>
+                <td rowspan="2">SCS102</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">SCS111</td>
+                <td rowspan="2"></td>
+                <td rowspan="2">SCS104</td>
+                <td rowspan="2">SCS105</td>
+            </tr>
+            <tr></tr>
+            </table>
+        </li>
+    </ol>
+    </div>
+</body>
+</html>
